@@ -1,12 +1,22 @@
 .jumbotron {
+  min-height: 400px;
   background-position: center;
   margin-top: 20px;
-  background-image: url("/public/assets/images/burger1.jpg");
   background-size: cover;
+  background-image: url("/assets/img/burger1.jpg");
 }
 
 .jumbotron > h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#color-override {
+  color: #1ac00b;
+}
+
+
+.container {
+  background-color: transparent;
 }
 
 #newburger {
@@ -14,7 +24,7 @@
 }
 
 #lefthead {
-  background-color: #5cb85c;
+  background-color: #15a008;
   color: white;
   text-align: center;
   font-size: 1.2em;
@@ -26,7 +36,7 @@
 }
 
 #righthead {
-  background-color: #f0ad4e;
+  background-color: tomato;
   color: white;
   text-align: center;
   font-size: 1.2em;
